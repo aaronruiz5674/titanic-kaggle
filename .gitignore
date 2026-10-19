@@ -1,0 +1,21 @@
+# Secretos y entorno
+.env
+.venv/
+__pycache__/
+*.egg-info/
+.ruff_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+kaggle.json
+
+# Datos (los gestiona DVC; las reglas de Kaggle prohíben redistribuirlos)
+data/**/*.csv
+data/**/*.parquet
+data/**/*.zip
+
+# Artefactos generados
+outputs/
+multirun/
+mlruns/
+mlflow.db
+submissions/*.csv
