@@ -1,4 +1,5 @@
 """Utilidades transversales: entorno, reproducibilidad y trazabilidad."""
+
 from __future__ import annotations
 
 import os
